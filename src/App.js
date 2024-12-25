@@ -63,7 +63,7 @@ const Question = ({
     <div className="space-y-6">
       <QuestionHeader text={questionText} index={index + 1} />
       
-      <div className="space-y-2">
+      <div>
         {choiceArray.map((choice, idx) => (
           <Choice
             key={idx}
